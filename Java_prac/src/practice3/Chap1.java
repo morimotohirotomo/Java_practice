@@ -13,7 +13,7 @@ public class Chap1 {
 			System.out.println(y);
 		}
 
-		System.out.println((x > y)? "xはyより大きい" : "xはyより小さい");
+		System.out.println((x > y)? "xはyより大きい" : ((x < y)? "xはyより小さい" : "xとyは等しい"));
 	}
 
 }
