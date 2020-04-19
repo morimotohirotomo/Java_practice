@@ -47,4 +47,9 @@ public class CoinCase {
         }
         return 0;
     }
+    public int GetAmount() {
+    	return ( Yen500 * 500 ) + ( Yen100 * 100 )
+                + ( Yen50 * 50 ) + ( Yen10 * 10 )
+                + ( Yen5 * 5 ) + Yen1;
+    }
 }
