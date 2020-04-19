@@ -4,8 +4,8 @@ public class Chap1 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		Dog dog1 = new Dog();
-		Dog dog2 = new Dog();
+		Dog dog1 = new Dog("チワワ");
+		Dog dog2 = new Dog("シーズー");
 		dog1.SetName("aa");
 		dog1.SetAge(11);
 		dog1.ShowProfile();
