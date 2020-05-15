@@ -7,7 +7,7 @@ public class Chap1 {
 		Scanner scanner = new Scanner(System.in);
 		String s = scanner.nextLine();
 		System.out.println(s);
-		int i = new java.util.Random().nextInt(10);
+		int i = new java.util.Random().nextInt(10) + 1;
 		System.out.println(i);
 	}
 
