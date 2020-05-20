@@ -9,6 +9,7 @@ public class Chapter1_7 {
 		for (String w : word) {
 			System.out.print(w + "->");
 		}
+		System.out.printf("%03d", 3);
 	}
 
 }
