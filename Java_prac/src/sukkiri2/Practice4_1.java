@@ -26,4 +26,12 @@ public class Practice4_1 implements Comparable<Practice4_1>, Cloneable {
 	public int compareTo(Practice4_1 o) {
 		return this.publishDate.compareTo(o.publishDate);
 	}
+
+	public Practice4_1 clone() {
+		Practice4_1 p = new Practice4_1();
+		p.title = this.title;
+		p.comment = this.comment;
+		p.publishDate = (Date) this.publishDate.clone();
+		return p;
+	}
 }
