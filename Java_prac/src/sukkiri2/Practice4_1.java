@@ -1,7 +1,7 @@
 package sukkiri2;
 import java.util.Date;
 
-public class Practice4_1 {
+public class Practice4_1 implements Comparable<Practice4_1>, Cloneable {
 	private String title;
 	private Date publishDate;
 	private String comment;
@@ -21,5 +21,9 @@ public class Practice4_1 {
 		if (!publishDate.equals(p.publishDate)) return false;
 		if (!title.equals(p.title)) return false;
 		return true;
+	}
+
+	public int compareTo(Practice4_1 o) {
+		return this.publishDate.compareTo(o.publishDate);
 	}
 }
